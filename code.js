@@ -8,7 +8,7 @@ function longWords(str) {
     let word = str.split(',')
     let letters = 6;
 
-    for (let i = 0; i < +words.length; i++){
+    for (let i = 0; i <= words.length; i++){
         if (words[i].length <= letters) {
             
         }
